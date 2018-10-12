@@ -21,5 +21,5 @@ module.exports = function solveEquation(equation) {
   const secondRoot = Math.round( (-firstDegree - Math.sqrt(descriminant)) / (2 * squareDegree));
   const result = [firstRoot, secondRoot];
 
-  return result.sort((a, b) => a - b);d
+  return result.sort((a, b) => a - b);
 }
